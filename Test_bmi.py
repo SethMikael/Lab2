@@ -1,4 +1,4 @@
-def calculate_bmi(weight, height):
+def test_calculate_bmi(weight=57, height=1.68):
     print("Height = " + str(height))
     print("Weight = " + str(weight))
 
@@ -14,6 +14,3 @@ def calculate_bmi(weight, height):
     else:
         print("Overweight")
         return 1
-
-
-calculate_bmi(weight=57, height=1.68)

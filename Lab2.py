@@ -36,8 +36,9 @@ def calc_median_temperature():
 
 
 def calc_min_max_temperature():
-    print("Min = " + str(min(array)))
-    print("Max = " + str(max(array)))
+    int_array = [int(i) for i in array]
+    print("Min = " + str(min(int_array)))
+    print("Max = " + str(max(int_array)))
 
 
 def choose_menu():
